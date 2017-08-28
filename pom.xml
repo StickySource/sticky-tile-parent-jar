@@ -6,7 +6,7 @@
   <parent>
     <groupId>net.stickycode.parent</groupId>
     <artifactId>sticky-parent-tile</artifactId>
-    <version>1.1</version>
+    <version>2.2</version>
   </parent>
 
   <groupId>net.stickycode.tile</groupId>
@@ -17,11 +17,9 @@
   <name>${project.artifactId}-1</name>
   <description>Tile manifest for build jars</description>
 
-    <scm>
-      <connection>${git.url}</connection>
-      <developerConnection>${git.url}</developerConnection>
-      <tag>HEAD</tag>
-    </scm>
-
+  <scm>
+    <developerConnection>${git.url}</developerConnection>
+    <tag>HEAD</tag>
+  </scm>
 
 </project>
